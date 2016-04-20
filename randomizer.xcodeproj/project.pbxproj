@@ -14,6 +14,8 @@
 		CDDC63811CBB18A700BD2909 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDDC637F1CBB18A700BD2909 /* LaunchScreen.storyboard */; };
 		CDDC638C1CBB18A800BD2909 /* randomizerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDC638B1CBB18A800BD2909 /* randomizerTests.swift */; };
 		CDDC63971CBB18A800BD2909 /* randomizerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDC63961CBB18A800BD2909 /* randomizerUITests.swift */; };
+		CDDC63A51CBB198100BD2909 /* MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDC63A41CBB198100BD2909 /* MyViewController.swift */; };
+		CDDC63A71CBB1A1200BD2909 /* MyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDC63A61CBB1A1200BD2909 /* MyView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		CDDC63921CBB18A800BD2909 /* randomizerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = randomizerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDDC63961CBB18A800BD2909 /* randomizerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = randomizerUITests.swift; sourceTree = "<group>"; };
 		CDDC63981CBB18A800BD2909 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDDC63A41CBB198100BD2909 /* MyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyViewController.swift; sourceTree = "<group>"; };
+		CDDC63A61CBB1A1200BD2909 /* MyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,8 @@
 				CDDC63761CBB18A700BD2909 /* AppDelegate.swift */,
 				CDDC63781CBB18A700BD2909 /* ViewController.swift */,
 				CDDC637A1CBB18A700BD2909 /* Main.storyboard */,
+				CDDC63A41CBB198100BD2909 /* MyViewController.swift */,
+				CDDC63A61CBB1A1200BD2909 /* MyView.swift */,
 				CDDC637D1CBB18A700BD2909 /* Assets.xcassets */,
 				CDDC637F1CBB18A700BD2909 /* LaunchScreen.storyboard */,
 				CDDC63821CBB18A700BD2909 /* Info.plist */,
@@ -256,7 +262,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDDC63A71CBB1A1200BD2909 /* MyView.swift in Sources */,
 				CDDC63791CBB18A700BD2909 /* ViewController.swift in Sources */,
+				CDDC63A51CBB198100BD2909 /* MyViewController.swift in Sources */,
 				CDDC63771CBB18A700BD2909 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
